@@ -8,7 +8,7 @@ def squareDecorator(func):
     return wrapper
 
 @squareDecorator
-def add(a, b):
+def add(a: int, b: int) -> int:
     return a + b
 
 print("End of add.py")
